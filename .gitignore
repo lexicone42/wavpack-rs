@@ -1,0 +1,13 @@
+/target
+/WavPack-ref
+/docs
+
+# Compiled C verification tools
+verify_decorr
+verify_entropy
+verify_entropy_ref
+verify_exact
+/tmp/
+*.o
+
+# Test data is tracked (small synthetic files)
