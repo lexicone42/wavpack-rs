@@ -45,6 +45,10 @@ Test data includes synthetic ramps (mono/stereo, 16/24-bit, all compression leve
 - `entropy.rs` — Adaptive entropy decoder (3-median zone coding)
 - `decorrelation.rs` — Multi-pass LMS decorrelation with cross-channel support
 
+## Implementation notes
+
+This is an original Rust implementation, not a translation of any existing decoder. The official WavPack source code (BSD-licensed, by David Bryant) was referenced during development for algorithm details, particularly the decorrelation and entropy coding. Output is verified bit-exact against `wvunpack 5.8.1`.
+
 ## License
 
 MIT
